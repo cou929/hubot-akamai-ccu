@@ -1,25 +1,23 @@
 {
   "name": "hubot-akamai-ccu",
   "description": "A hubot scirpt that talks Akamai CCU REST API https://api.ccu.akamai.com/ccu/v2/docs/index.html",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "author": "Kosei Moriyama <cou929@gmail.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-akamai-ccu.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-akamai-ccu/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +28,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
