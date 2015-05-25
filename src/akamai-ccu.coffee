@@ -7,7 +7,7 @@
 # Configuration:
 #   HUBOT_AKAMAI_CCU_USERNAME: User name for API authentication. Required.
 #   HUBOT_AKAMAI_CCU_PASSWORD: Password for API authentication. Required.
-#   HUBOT_AKAMAI_CCU_ALLOWED_URL: Regexp pattern to allow to purge. Optional. Default to all url.
+#   HUBOT_AKAMAI_CCU_ALLOWED_URL_REGEXP: Regexp pattern to allow to purge. Optional. Default to all url.
 #   HUBOT_AKAMAI_CCU_ALLOWED_CPCODE: Comma separated CP Codes to allow purge. Optional. Default to all CP Codes.
 #
 # Commands:
@@ -33,8 +33,8 @@ if not username or not password
   process.exit 1
 
 allowed_url_pattern = undefined
-if process.env.HUBOT_AKAMAI_CCU_ALLOWED_URL
-  allowed_url_pattern = new RegExp process.env.HUBOT_AKAMAI_CCU_ALLOWED_URL
+if process.env.HUBOT_AKAMAI_CCU_ALLOWED_URL_REGEXP
+  allowed_url_pattern = new RegExp process.env.HUBOT_AKAMAI_CCU_ALLOWED_URL_REGEXP
 
 allowed_cpcodes = undefined
 if process.env.HUBOT_AKAMAI_CCU_ALLOWED_CPCODE

@@ -42,7 +42,7 @@ hubot> The queue length is 1
   - User name for API authentication. Required.
 - `HUBOT_AKAMAI_CCU_PASSWORD`
   - Password for API authentication. Required.
-- `HUBOT_AKAMAI_CCU_ALLOWED_URL`
+- `HUBOT_AKAMAI_CCU_ALLOWED_URL_REGEXP`
   - Regexp pattern to allow to purge. Optional. Default to all url.
 - `HUBOT_AKAMAI_CCU_ALLOWED_CPCODE`
   - Comma separated CP Codes to allow purge. Optional. Default to all CP Codes.
