@@ -16,7 +16,7 @@
     "url": "https://github.com/hubot-scripts/hubot-akamai-ccu/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.9"
   },
   "devDependencies": {
     "mocha": "*",
