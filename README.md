@@ -1,4 +1,4 @@
-# hubot-akamai-ccu
+# hubot-akamai-ccu [![npm version](https://badge.fury.io/js/hubot-akamai-ccu.svg)](http://badge.fury.io/js/hubot-akamai-ccu) [![Build Status](https://travis-ci.org/cou929/hubot-akamai-ccu.svg?branch=master)](https://travis-ci.org/cou929/hubot-akamai-ccu)
 
 A hubot scirpt that talks Akamai CCU REST API https://api.ccu.akamai.com/ccu/v2/docs/index.html
 
